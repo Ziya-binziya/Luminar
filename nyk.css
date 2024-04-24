@@ -7,11 +7,33 @@
    justify-content: space-evenly;
    align-items: center;
 }
-.f1,.f2,.f3,.f4{
+.f1,.f2,.f3{
    margin-top: 5px;
    height: 500px;
    width:25%;
    border: 2px solid white;
+}
+@media screen and (max-width:600px){
+    .first{
+        width: 100%;
+        display: block;
+    }
+    .f2{
+        display: none;
+    }
+    .f3{
+        display: none;
+    }
+    .f1{
+        width: 75%;
+    }
+    .f1 img{
+        width: 310px;
+        margin-left:38px;
+    }
+    .card3{
+        display: none;
+    }
 }
 .second{
     height: 130px;
@@ -31,4 +53,18 @@
     color:rgb(24, 22, 22);
     font-size: 18px;
     margin-left: 35px;
+}
+@media screen and (max-width:600px){
+    .card1,.card2{
+        border: 5px solid white;
+    }
+    .col p{
+        font-size: 10px;
+    }
+    .col h5{
+        font-size: 14px;
+    }
+    .navbar-nav a{
+        font-size: 12px;
+    }
 }
