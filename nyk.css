@@ -55,9 +55,7 @@
     margin-left: 35px;
 }
 @media screen and (max-width:600px){
-    .card1,.card2{
-        border: 5px solid white;
-    }
+    
     .col p{
         font-size: 10px;
     }
@@ -67,4 +65,11 @@
     .navbar-nav a{
         font-size: 12px;
     }
+    .cards{
+        display: grid;
+    }
+}
+.nav-link:hover{
+    color:rgba(0, 0, 0, 0.511)
+
 }
