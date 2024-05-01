@@ -68,6 +68,9 @@
     .cards{
         display: grid;
     }
+    .card2{
+        margin-top: 10px;
+    }
 }
 .nav-link:hover{
     color:rgba(0, 0, 0, 0.511)
